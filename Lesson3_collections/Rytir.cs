@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson3_collections
+namespace Lesson03_collections
 {
     class Rytir
     {
