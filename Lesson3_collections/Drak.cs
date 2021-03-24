@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Lesson03_collections
 {
     class Drak
-    {
+    { 
         public int Sila;
         public int Zivot;
 
@@ -19,7 +19,7 @@ namespace Lesson03_collections
 
         public override string ToString()
         {
-            return "drak -- zivot:" + Zivot + " sila:" + Sila;
+            return string.Format("drak -- zivot:{0} sila:{1}", Zivot, Sila);
         }
 
         public bool JeNazivu()
